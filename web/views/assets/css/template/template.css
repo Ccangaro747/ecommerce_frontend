@@ -1,0 +1,63 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.brand-image {
+  max-height: 50px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-search-container,
+.bt,
+.cart-info {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 991px) {
+  .brand-image {
+    max-height: 40px;
+  }
+
+  .dropdown-menu > .dropdown-submenu > .dropdown-menu {
+    display: none !important;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: block !important;
+  }
+}
+
+.topColor{
+    background-color:black; color:white
+}
+.templateColor{
+    background: #FFC0CB; 
+    color:white;
+}
+.main-footer{
+    border-top: 0 !important;
+}
