@@ -1,4 +1,26 @@
-body{
+/* Mantener el color del ícono fijo */
+#btnSlide i {
+    color: inherit !important; /* Hereda el color, evita que cambie */
+}
+
+#btnSlide:hover i,
+#btnSlide:focus i,
+#btnSlide:active i {
+    color: inherit !important; /* Asegura que el color del ícono no cambie */
+}
+
+/* Evitar que el hover de templateColor cambie el color del ícono */
+.templateColor:hover i {
+    color: inherit !important;
+}
+
+/* Evitar que templateColor cambie el color del fondo o del texto del botón */
+.templateColor:hover {
+    background-color: #FFC0CB !important;
+    color: white !important;
+}
+
+body {
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -54,10 +76,12 @@ ul {
 .topColor{
     background-color:black; color:white
 }
-.templateColor{
-    background: #FFC0CB; 
+
+.templateColor, .templateColor :hover{
+    background: #FFC0CB;
     color:white;
 }
-.main-footer{
+
+.main-footer {
     border-top: 0 !important;
 }

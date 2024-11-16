@@ -1,0 +1,2 @@
+[13-Nov-2024 22:01:45 Europe/Berlin] PHP Warning:  include(pages/home.php): Failed to open stream: No such file or directory in C:\xamp\htdocs\ecommerce\web\views\template.php on line 51
+[13-Nov-2024 22:01:45 Europe/Berlin] PHP Warning:  include(): Failed opening 'pages/home.php' for inclusion (include_path='C:\xamp\php\PEAR') in C:\xamp\htdocs\ecommerce\web\views\template.php on line 51
