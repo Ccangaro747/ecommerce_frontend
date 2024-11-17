@@ -76,10 +76,9 @@ ul {
 .topColor{
     background-color:black; color:white
 }
-
-.templateColor, .templateColor:hover, a.templateColor{
-    background: #FFC0CB !important;
-    color:white !important;
+.templateColor{
+    background: #FFC0CB; 
+    color:white;
 }
 
 .main-footer {
