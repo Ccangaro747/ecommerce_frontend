@@ -32,6 +32,9 @@ $path = TemplateController::path();
   <!-- Enlace al archivo CSS externo -->
   <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/template.css">
 
+  <!-- Enlace al archivo CSS de productos -->
+  <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/products/products.css">
+
   <!-- JS-->
 
   <!-- jQuery -->
@@ -69,5 +72,7 @@ $path = TemplateController::path();
 
 <!-- AdminLTE App -->
 <script src="<?php echo $path ?>views/assets/js/plugins/adminlte/adminlte.min.js"></script>
+<!-- Products -->
+<script src="<?php echo $path ?>views/assets/js/products/products.js"></script>
 </body>
 </html>

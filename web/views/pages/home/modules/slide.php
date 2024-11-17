@@ -7,7 +7,7 @@
             <li>
                 <img src="<?php echo $path ?>views/assets/img/slide/1/back_default.jpg" class="img-fluid">
                 <div class="slideOpt opt1">
-                    <img src="<?php echo $path ?>views/assets/img/slide/1/rufina.png" style="top:15%; right:10%; width:45%">
+                    <img src="<?php echo $path ?>views/assets/img/slide/1/prueba3.png" style="top:-20%; right:5%; width:40%">
                     <div class="slideText" style="top:20%; left:10%; width:40%">
                         <h1 class="text-uppercase" style="color:#333">
                             <span style="font-weight: bold;">RUFINA</span>
