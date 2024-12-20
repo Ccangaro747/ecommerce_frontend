@@ -29,6 +29,8 @@ $path = TemplateController::path();
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/adminlte/adminlte.min.css">
 
+  <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/products/products.css">
+
   <!-- JS-->
 
   <!-- jQuery -->
